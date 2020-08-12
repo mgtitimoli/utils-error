@@ -1,4 +1,6 @@
+.*
 *.config.js
 *.json
-jest.*
+jest*
 readmeTemplate.ejs
+src
