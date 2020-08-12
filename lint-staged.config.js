@@ -1,3 +1,3 @@
 module.exports = {
-  "*.ts": "npm run lint:fix"
+  "*.ts": ["eslint --fix", "ttsc --noEmit"]
 };

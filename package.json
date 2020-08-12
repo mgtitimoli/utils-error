@@ -14,11 +14,6 @@
     "build:code": "ttsc --inlineSources --sourceMap --sourceRoot '.'",
     "commit": "commit",
     "debug": "node --require ts-node/register --require tsconfig-paths/register --inspect src/index.ts",
-    "lint": "run-s lint:types lint:code",
-    "lint:fix": "run-s lint:types lint:fix:code",
-    "lint:fix:code": "yarn run lint:code --fix",
-    "lint:code": "eslint src",
-    "lint:types": "ttsc --noEmit",
     "test": "jest"
   },
   "devDependencies": {
