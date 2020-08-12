@@ -5,9 +5,6 @@
   "main": "dist/index.js",
   "author": "Mauro Gabriel Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "publishConfig": {
     "access": "public"
   },
