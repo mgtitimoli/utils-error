@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "author": "Mauro Gabriel Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "run-s build:clean build:code",
     "build:clean": "rm -rf dist",
