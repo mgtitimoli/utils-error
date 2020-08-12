@@ -1,3 +1,3 @@
 module.exports = {
-  "*.ts": ["eslint --fix", "ttsc --noEmit"]
+  "*.ts": [() => "ttsc --noEmit", "eslint --fix"]
 };
