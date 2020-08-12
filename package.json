@@ -1,7 +1,7 @@
 {
   "name": "@mgtitimoli/utils-error",
   "description": "Error Utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "author": "Mauro Gabriel Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
