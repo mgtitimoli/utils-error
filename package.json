@@ -9,10 +9,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "run-s build:clean build:code",
+    "build": "run-s build:clean build:code build:readme",
     "build:clean": "rm -rf dist",
     "build:code": "ttsc --inlineSources --sourceMap --sourceRoot '.'",
-    "commit": "commit",
+    "build:readme": "run-s build:readme:from-package build:readme:doctoc",
+    "build:readme:doctoc": "doctoc README.md",
+    "build:readme:from-package": "pkg-to-readme --force --template readmeTemplate.ejs",
     "debug": "node --require ts-node/register --require tsconfig-paths/register --inspect src/index.ts",
     "test": "jest"
   },
